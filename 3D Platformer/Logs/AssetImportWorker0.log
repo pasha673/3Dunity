@@ -1,0 +1,1435 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.5f1 (40eb3a945986) revision 4254522'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19044) 64bit CoreSingleLanguage' Language: 'ru' Physical Memory: 8071 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.5f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/user/Documents/GitHub/3Dunity/3D Platformer
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+52290
+Successfully changed project path to: C:/Users/user/Documents/GitHub/3Dunity/3D Platformer
+C:/Users/user/Documents/GitHub/3Dunity/3D Platformer
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 271.06 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.5f1 (40eb3a945986)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/user/Documents/GitHub/3Dunity/3D Platformer/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce MX110 (ID=0x174e)
+    Vendor:   NVIDIA
+    VRAM:     2010 MB
+    Driver:   27.21.14.6611
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56480
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.009207 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 178.68 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.342 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1343ms)
+		BeginReloadAssembly (128ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (996ms)
+			LoadAssemblies (127ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (229ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (66ms)
+			SetupLoadedEditorAssemblies (604ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (85ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (179ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (227ms)
+				ProcessInitializeOnLoadMethodAttributes (110ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.006054 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\user\Documents\GitHub\3Dunity\3D Platformer\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\user\Documents\GitHub\3Dunity\3D Platformer\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.16 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.037 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2039ms)
+		BeginReloadAssembly (196ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (11ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (31ms)
+		EndReloadAssembly (1613ms)
+			LoadAssemblies (137ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (543ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (102ms)
+			SetupLoadedEditorAssemblies (739ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (30ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (157ms)
+				ProcessInitializeOnLoadAttributes (490ms)
+				ProcessInitializeOnLoadMethodAttributes (51ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 1.93 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3382 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 27 unused Assets / (111.1 KB). Loaded Objects now: 3848.
+Memory consumption went from 120.4 MB to 120.3 MB.
+Total: 5.284800 ms (FindLiveObjects: 0.414400 ms CreateObjectMapping: 0.351400 ms MarkObjects: 4.309900 ms  DeleteObjects: 0.207400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 24320.819799 seconds.
+  path: Assets/ThirdPart/MegaPack1Lite/TropicalIslandPack1/Models/Materials/BlueFlower.mat
+  artifactKey: Guid(3cf8b3c58d6e2469597bcc05a012e476) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdPart/MegaPack1Lite/TropicalIslandPack1/Models/Materials/BlueFlower.mat using Guid(3cf8b3c58d6e2469597bcc05a012e476) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1b0e8e9d25fa7fbd4b51b454b1b39be') in 0.253351 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/ThirdPart/Polylised - Medieval Desert City/Models/Props/barrel.FBX
+  artifactKey: Guid(b899b109968a14f4797d7cd111cb647b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdPart/Polylised - Medieval Desert City/Models/Props/barrel.FBX using Guid(b899b109968a14f4797d7cd111cb647b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa000fbae1a10c3587a1dd723160f86a') in 0.095496 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/ThirdPart/Polylised - Medieval Desert City/Models/Props/banner.FBX
+  artifactKey: Guid(653a77d8711adf3429a390ba25ee55c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdPart/Polylised - Medieval Desert City/Models/Props/banner.FBX using Guid(653a77d8711adf3429a390ba25ee55c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce905f73434f612ffc6f6e43bd9866a8') in 0.041377 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/ThirdPart/Polylised - Medieval Desert City/Models/Props/boat_03.FBX
+  artifactKey: Guid(1fc714e0ee6763a43b1700e624f9a488) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdPart/Polylised - Medieval Desert City/Models/Props/boat_03.FBX using Guid(1fc714e0ee6763a43b1700e624f9a488) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4051ce3f997515753be2b53c737ba469') in 0.046139 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/ThirdPart/Wand and Circles/Polygon City Free Pack - Environment and Interior/Materials/StoneColors/2.mat
+  artifactKey: Guid(55c9c530793a5b64cab6886075450671) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdPart/Wand and Circles/Polygon City Free Pack - Environment and Interior/Materials/StoneColors/2.mat using Guid(55c9c530793a5b64cab6886075450671) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a1004c4136f6d0ab2ca661e2397f1f4') in 0.439120 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/ThirdPart/Polylised - Medieval Desert City/Models/Props/box.FBX
+  artifactKey: Guid(1bcb7811de1531641a7547be7bf01fe6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdPart/Polylised - Medieval Desert City/Models/Props/box.FBX using Guid(1bcb7811de1531641a7547be7bf01fe6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12703ea1f19d10fb4a00378547ad8368') in 0.034122 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/ThirdPart/Polylised - Medieval Desert City/Prefabs/prefab_props/barrel_group.prefab
+  artifactKey: Guid(84573fa2e72500d49835406b46d71622) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdPart/Polylised - Medieval Desert City/Prefabs/prefab_props/barrel_group.prefab using Guid(84573fa2e72500d49835406b46d71622) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7db011380be9f0763907e159621f03c') in 0.051903 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/ThirdPart/Polylised - Medieval Desert City/Models/Props/barrel_group.FBX
+  artifactKey: Guid(a1431ac88ba4b0f4c861c48cee75e9e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdPart/Polylised - Medieval Desert City/Models/Props/barrel_group.FBX using Guid(a1431ac88ba4b0f4c861c48cee75e9e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9aed54fd97050c517e60dfd85c5cbc1') in 0.043189 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000606 seconds.
+  path: Assets/ThirdPart/Polylised - Medieval Desert City/Prefabs/prefab_civilian_buildings/balcony_2.prefab
+  artifactKey: Guid(d9994290a3429744c9b00201ba123d54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdPart/Polylised - Medieval Desert City/Prefabs/prefab_civilian_buildings/balcony_2.prefab using Guid(d9994290a3429744c9b00201ba123d54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eabf3baaac533ad89fbfac1ef5d3cab2') in 0.052061 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/ThirdPart/Polylised - Medieval Desert City/Models/Civilian_Buildings/balcony_3.FBX
+  artifactKey: Guid(5e96d28a024c18b418bbbb7a456c20f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdPart/Polylised - Medieval Desert City/Models/Civilian_Buildings/balcony_3.FBX using Guid(5e96d28a024c18b418bbbb7a456c20f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ec5cd26f28854233c1700375147664c') in 0.308058 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/ThirdParty/Turtle/Animations/TurtleShell/Attack02_TurtleShell_Anim.fbx
+  artifactKey: Guid(24d275f677a39b245a5e175f24e345a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Turtle/Animations/TurtleShell/Attack02_TurtleShell_Anim.fbx using Guid(24d275f677a39b245a5e175f24e345a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4b605d8f4398356ebaf9392309754ae') in 0.083680 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/ThirdPart/MegaPack1Lite/EnchantedForestPack1/Models/Materials/Bush2.mat
+  artifactKey: Guid(dfd76f2641ad94e8b87f7df1b13b1a72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdPart/MegaPack1Lite/EnchantedForestPack1/Models/Materials/Bush2.mat using Guid(dfd76f2641ad94e8b87f7df1b13b1a72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2742ab6aee399e51452ad035949277bc') in 0.028334 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/ThirdPart/MegaPack1Lite/EnchantedForestPack1/Models/Materials/Berries1.mat
+  artifactKey: Guid(71506f59c36984f16ab2e28c0423f4d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdPart/MegaPack1Lite/EnchantedForestPack1/Models/Materials/Berries1.mat using Guid(71506f59c36984f16ab2e28c0423f4d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7e6b04285bad939e930a5b39a1cd53e') in 0.020411 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/ThirdPart/Forest Arena/PrefabsBlue/Pieces/BannerBlueSmall.prefab
+  artifactKey: Guid(f052ac6475e6a724199c149b29960b95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdPart/Forest Arena/PrefabsBlue/Pieces/BannerBlueSmall.prefab using Guid(f052ac6475e6a724199c149b29960b95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd83bde60d0b8f60f111becc1594e3fe7') in 0.029590 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/ThirdPart/Wand and Circles/Polygon City Free Pack - Environment and Interior/Materials/StoneColors/1.mat
+  artifactKey: Guid(5105c16617b77e54281e310f2b309cf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdPart/Wand and Circles/Polygon City Free Pack - Environment and Interior/Materials/StoneColors/1.mat using Guid(5105c16617b77e54281e310f2b309cf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee917846aa934ede9c0b324d381abceb') in 0.022361 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/ThirdPart/MegaPack1Lite/ToolsAndWeapons/Models/Materials/Bronze.mat
+  artifactKey: Guid(9605218e11da7416f80a4b5f55a34442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdPart/MegaPack1Lite/ToolsAndWeapons/Models/Materials/Bronze.mat using Guid(9605218e11da7416f80a4b5f55a34442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3f39c23c3941603bc2319b3e308c51a') in 0.028746 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/ThirdPart/MegaPack1Lite/RomanCityPack1Lite/Models/Roman/Materials/Bronze.mat
+  artifactKey: Guid(e462b64d8c3634c85b2abd779b57be13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdPart/MegaPack1Lite/RomanCityPack1Lite/Models/Roman/Materials/Bronze.mat using Guid(e462b64d8c3634c85b2abd779b57be13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2abe69876a4ce536a333a394e3275d57') in 0.018477 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/ThirdPart/MegaPack1Lite/EnchantedForestPack1/Models/Materials/Bush1.mat
+  artifactKey: Guid(21b04b527c5fa45ddb54962658878374) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdPart/MegaPack1Lite/EnchantedForestPack1/Models/Materials/Bush1.mat using Guid(21b04b527c5fa45ddb54962658878374) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '018e06e224f901c106ad9ff048eedf70') in 0.022587 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/ThirdPart/MegaPack1Lite/ToolsAndWeapons/Prefabs/axe.prefab
+  artifactKey: Guid(9719a2da3351343c0adf6630d134714d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdPart/MegaPack1Lite/ToolsAndWeapons/Prefabs/axe.prefab using Guid(9719a2da3351343c0adf6630d134714d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5ea93e38737335206e29f0e76273ed8') in 0.501016 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 348.361463 seconds.
+  path: Assets/ThirdPart/MegaPack1Lite/ToolsAndWeapons/Prefabs/battle_axe.prefab
+  artifactKey: Guid(4ae6742f50b4c4d91be50bcbadb35fbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdPart/MegaPack1Lite/ToolsAndWeapons/Prefabs/battle_axe.prefab using Guid(4ae6742f50b4c4d91be50bcbadb35fbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b924430ab5077c50fdb11f029e77ee7e') in 0.031770 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/ThirdPart/Wand and Circles/Polygon City Free Pack - Environment and Interior/Prefabs/Stones/Big Stones/Big stone_1.prefab
+  artifactKey: Guid(b23e5be9ef1ac4c45b532fb7fb0f7edf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdPart/Wand and Circles/Polygon City Free Pack - Environment and Interior/Prefabs/Stones/Big Stones/Big stone_1.prefab using Guid(b23e5be9ef1ac4c45b532fb7fb0f7edf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7540b49807c3fb569043afd34c761bba') in 0.028779 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/ThirdPart/Wand and Circles/Polygon City Free Pack - Environment and Interior/Prefabs/Stones/Big Stones/Big stone_2.prefab
+  artifactKey: Guid(df7a67d7c28de8847be08621839e032c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdPart/Wand and Circles/Polygon City Free Pack - Environment and Interior/Prefabs/Stones/Big Stones/Big stone_2.prefab using Guid(df7a67d7c28de8847be08621839e032c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cefb296e53f1c6c0a0ad616182d4e521') in 0.033258 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/ThirdPart/Wand and Circles/Polygon City Free Pack - Environment and Interior/Prefabs/Stones/Big Stones/Big stone_3.prefab
+  artifactKey: Guid(754cf91f22b8fd14495f7dd8ce051aae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdPart/Wand and Circles/Polygon City Free Pack - Environment and Interior/Prefabs/Stones/Big Stones/Big stone_3.prefab using Guid(754cf91f22b8fd14495f7dd8ce051aae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42a5900cb20b44a1e15cfcfb34d06153') in 0.022905 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.008460 seconds.
+  path: Assets/ThirdPart/Polylised - Medieval Desert City/Prefabs/prefab_props/boat_01.prefab
+  artifactKey: Guid(c3f5eece0f81b3944990d6c0d91d442f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdPart/Polylised - Medieval Desert City/Prefabs/prefab_props/boat_01.prefab using Guid(c3f5eece0f81b3944990d6c0d91d442f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53e13f0b5a2f421dd3ab64d6bd0dbabf') in 0.022817 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/ThirdPart/Polylised - Medieval Desert City/Prefabs/prefab_props/boat_03.prefab
+  artifactKey: Guid(6feceae911d87fa43973eb944d04162f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdPart/Polylised - Medieval Desert City/Prefabs/prefab_props/boat_03.prefab using Guid(6feceae911d87fa43973eb944d04162f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b0cb7b6f4d03ce0a8279bdeecdecde4') in 0.024257 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.635904 seconds.
+  path: Assets/ThirdPart/Polylised - Medieval Desert City/Prefabs/prefab_unique_buildings/building_base_a.prefab
+  artifactKey: Guid(2be032c219a3b6141b44c75798f7b7e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdPart/Polylised - Medieval Desert City/Prefabs/prefab_unique_buildings/building_base_a.prefab using Guid(2be032c219a3b6141b44c75798f7b7e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4be196cc2b4c1d32188c6f885278c22') in 0.032628 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/ThirdPart/Polylised - Medieval Desert City/Prefabs/prefab_unique_buildings/castle_tower_rectangular.prefab
+  artifactKey: Guid(f26b24b97b5031e4d8984eb41762eda1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdPart/Polylised - Medieval Desert City/Prefabs/prefab_unique_buildings/castle_tower_rectangular.prefab using Guid(f26b24b97b5031e4d8984eb41762eda1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4637a0a85b48cd05295aa6b90f5356da') in 0.022045 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/ThirdPart/Polylised - Medieval Desert City/Prefabs/prefab_civilian_buildings/civilian_house_23.prefab
+  artifactKey: Guid(3a86fabd48459fb408a2892102efbd6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdPart/Polylised - Medieval Desert City/Prefabs/prefab_civilian_buildings/civilian_house_23.prefab using Guid(3a86fabd48459fb408a2892102efbd6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9abf420608de154d4ec6286f9b582f6') in 0.037634 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/ThirdPart/Polylised - Medieval Desert City/Prefabs/prefab_civilian_buildings/civilian_house_38_a.prefab
+  artifactKey: Guid(52ee6da1a8e1d9f4aa6148e483b2e1da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdPart/Polylised - Medieval Desert City/Prefabs/prefab_civilian_buildings/civilian_house_38_a.prefab using Guid(52ee6da1a8e1d9f4aa6148e483b2e1da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fc3974a96b86008ddbba62353df0c76') in 0.028670 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/ThirdPart/Polylised - Medieval Desert City/Prefabs/prefab_civilian_buildings/civilian_house_37_g.prefab
+  artifactKey: Guid(21735a94dcd39be409a7db4ca33af760) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdPart/Polylised - Medieval Desert City/Prefabs/prefab_civilian_buildings/civilian_house_37_g.prefab using Guid(21735a94dcd39be409a7db4ca33af760) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8f4fa302c406851ba541de10d962e3c') in 0.035919 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000419 seconds.
+  path: Assets/ThirdPart/Polylised - Medieval Desert City/Prefabs/prefab_unique_buildings/castle_portcullis.prefab
+  artifactKey: Guid(f457757cb02425744b1b55994756c4f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdPart/Polylised - Medieval Desert City/Prefabs/prefab_unique_buildings/castle_portcullis.prefab using Guid(f457757cb02425744b1b55994756c4f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e4b61f6ad908146f4489e8454d5d60a') in 0.022709 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/ThirdPart/Polylised - Medieval Desert City/Prefabs/prefab_civilian_buildings/civilian_house_30_c.prefab
+  artifactKey: Guid(b354502dec1947046896e0fb57758eab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdPart/Polylised - Medieval Desert City/Prefabs/prefab_civilian_buildings/civilian_house_30_c.prefab using Guid(b354502dec1947046896e0fb57758eab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b433a30f25881810ce76c3d79b7ab4a') in 0.036832 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/ThirdPart/Polylised - Medieval Desert City/Prefabs/prefab_unique_buildings/castle_tower_octagon.prefab
+  artifactKey: Guid(3d5764d3cca272942b5087884ae75b75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdPart/Polylised - Medieval Desert City/Prefabs/prefab_unique_buildings/castle_tower_octagon.prefab using Guid(3d5764d3cca272942b5087884ae75b75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d2b519726813edff42e5d5379c4059a') in 0.033364 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/ThirdPart/Polylised - Medieval Desert City/Prefabs/prefab_civilian_buildings/civilian_house_37_c.prefab
+  artifactKey: Guid(8952f851d03275047a8be7e119e13728) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdPart/Polylised - Medieval Desert City/Prefabs/prefab_civilian_buildings/civilian_house_37_c.prefab using Guid(8952f851d03275047a8be7e119e13728) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39fd236c083f6c0f91ff7b877a59382e') in 0.031220 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000127 seconds.
+  path: Assets/ThirdPart/Polylised - Medieval Desert City/Prefabs/prefab_civilian_buildings/civilian_house_38_c.prefab
+  artifactKey: Guid(bd7026af18a72d149a2998c0de267a07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdPart/Polylised - Medieval Desert City/Prefabs/prefab_civilian_buildings/civilian_house_38_c.prefab using Guid(bd7026af18a72d149a2998c0de267a07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ffe5036776aecb29a75713b99fdc273') in 0.033691 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/ThirdPart/Polylised - Medieval Desert City/Prefabs/prefab_civilian_buildings/civilian_house_28.prefab
+  artifactKey: Guid(db4322200845b394f8bc772ae2abb158) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdPart/Polylised - Medieval Desert City/Prefabs/prefab_civilian_buildings/civilian_house_28.prefab using Guid(db4322200845b394f8bc772ae2abb158) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f1b4996f3096e159bfb3703268ab857') in 0.032493 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/ThirdPart/Polylised - Medieval Desert City/Prefabs/prefab_civilian_buildings/civilian_house_38_f.prefab
+  artifactKey: Guid(cdf7dc7eeb1172742afca768a04aebb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdPart/Polylised - Medieval Desert City/Prefabs/prefab_civilian_buildings/civilian_house_38_f.prefab using Guid(cdf7dc7eeb1172742afca768a04aebb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ddbb2fa01f378a45eb4eb52761f9e41') in 0.055316 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/ThirdPart/Polylised - Medieval Desert City/Prefabs/prefab_civilian_buildings/civilian_house_37_a.prefab
+  artifactKey: Guid(2594e9284459863408cbe27384553415) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdPart/Polylised - Medieval Desert City/Prefabs/prefab_civilian_buildings/civilian_house_37_a.prefab using Guid(2594e9284459863408cbe27384553415) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9963c8508278c0a1c94a2b583e3713b') in 0.038187 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/ThirdPart/Polylised - Medieval Desert City/Prefabs/prefab_civilian_buildings/civilian_house_21.prefab
+  artifactKey: Guid(db1ecc7f1c4946a498d495065d9a028b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdPart/Polylised - Medieval Desert City/Prefabs/prefab_civilian_buildings/civilian_house_21.prefab using Guid(db1ecc7f1c4946a498d495065d9a028b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e253fe6b4ae9f2e1cc12110a8a9efc2') in 0.025203 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/ThirdPart/Polylised - Medieval Desert City/Prefabs/prefab_civilian_buildings/civilian_house_25.prefab
+  artifactKey: Guid(c256bafbf9f1ae64781a7491166c6944) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdPart/Polylised - Medieval Desert City/Prefabs/prefab_civilian_buildings/civilian_house_25.prefab using Guid(c256bafbf9f1ae64781a7491166c6944) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '876231fbfa2c00b3335abffe8bb106c1') in 0.029410 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/ThirdPart/Polylised - Medieval Desert City/Prefabs/prefab_unique_buildings/castle_wall_2,5m.prefab
+  artifactKey: Guid(430f6f101fc52be4d9169a97e35a8355) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdPart/Polylised - Medieval Desert City/Prefabs/prefab_unique_buildings/castle_wall_2,5m.prefab using Guid(430f6f101fc52be4d9169a97e35a8355) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c517417d603496dda097db20337198e0') in 0.030002 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/ThirdPart/Polylised - Medieval Desert City/Prefabs/prefab_civilian_buildings/civilian_house_30_b.prefab
+  artifactKey: Guid(8a6da38c6fd7cb34a8e445902df65bd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdPart/Polylised - Medieval Desert City/Prefabs/prefab_civilian_buildings/civilian_house_30_b.prefab using Guid(8a6da38c6fd7cb34a8e445902df65bd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94bcfdd9a842d06cb12c43b402b86bf7') in 0.031748 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/ThirdPart/Polylised - Medieval Desert City/Prefabs/prefab_civilian_buildings/civilian_house_38_b.prefab
+  artifactKey: Guid(234079c993534db439a8afe07d2ba774) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdPart/Polylised - Medieval Desert City/Prefabs/prefab_civilian_buildings/civilian_house_38_b.prefab using Guid(234079c993534db439a8afe07d2ba774) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2716d63509e007ce6d858f89c97471a6') in 0.047642 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/ThirdPart/Polylised - Medieval Desert City/Prefabs/prefab_civilian_buildings/civilian_house_29.prefab
+  artifactKey: Guid(58cd44133bf9bf947bb34dce833aca15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdPart/Polylised - Medieval Desert City/Prefabs/prefab_civilian_buildings/civilian_house_29.prefab using Guid(58cd44133bf9bf947bb34dce833aca15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6d58b4dcee53dd9b50dfb951553b904') in 0.030427 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/ThirdPart/Polylised - Medieval Desert City/Prefabs/prefab_civilian_buildings/civilian_house_38_d.prefab
+  artifactKey: Guid(8fa5db24419aba7408a7eaec2b5e58c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdPart/Polylised - Medieval Desert City/Prefabs/prefab_civilian_buildings/civilian_house_38_d.prefab using Guid(8fa5db24419aba7408a7eaec2b5e58c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4de26557002af0886d1893c2dca776f') in 0.027687 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/ThirdPart/Polylised - Medieval Desert City/Prefabs/prefab_civilian_buildings/civilian_house_37_d.prefab
+  artifactKey: Guid(81ad85240f2ad6e40883c545920ed00c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdPart/Polylised - Medieval Desert City/Prefabs/prefab_civilian_buildings/civilian_house_37_d.prefab using Guid(81ad85240f2ad6e40883c545920ed00c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f912872ec41888259e17cabde08434e3') in 0.042294 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/ThirdPart/Polylised - Medieval Desert City/Prefabs/prefab_unique_buildings/castle_wall_10m.prefab
+  artifactKey: Guid(cc7ebc849fa32c34f8182aecf45c5bd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdPart/Polylised - Medieval Desert City/Prefabs/prefab_unique_buildings/castle_wall_10m.prefab using Guid(cc7ebc849fa32c34f8182aecf45c5bd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a1c2b51151807820a4902bf78c3c16f') in 0.032148 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/ThirdPart/Wand and Circles/Polygon City Free Pack - Environment and Interior/Prefabs/Desks/Desk_28.prefab
+  artifactKey: Guid(5324524f7f2a62145a24645612f07f7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdPart/Wand and Circles/Polygon City Free Pack - Environment and Interior/Prefabs/Desks/Desk_28.prefab using Guid(5324524f7f2a62145a24645612f07f7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '550db6b77360ec37fde2328335477126') in 0.029028 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/ThirdPart/MegaPack1Lite/EnchantedForestPack1/Prefabs/enchantedforest_grass_2.prefab
+  artifactKey: Guid(021c0694291954181b57883b69e4a6c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdPart/MegaPack1Lite/EnchantedForestPack1/Prefabs/enchantedforest_grass_2.prefab using Guid(021c0694291954181b57883b69e4a6c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96cb205a7a07188d7d38379a3f73cb49') in 0.020774 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/ThirdPart/MegaPack1Lite/EnchantedForestPack1/Prefabs/enchantedforest_rock_3.prefab
+  artifactKey: Guid(c9aa4a3148596484c8c90684cad71854) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdPart/MegaPack1Lite/EnchantedForestPack1/Prefabs/enchantedforest_rock_3.prefab using Guid(c9aa4a3148596484c8c90684cad71854) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0c2d84b1b2a5cf057b5262259965c15') in 0.024796 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/ThirdPart/MegaPack1Lite/EnchantedForestPack1/Prefabs/enchantedforest_moss_1.prefab
+  artifactKey: Guid(656c768597931435689f72ae9693a0e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdPart/MegaPack1Lite/EnchantedForestPack1/Prefabs/enchantedforest_moss_1.prefab using Guid(656c768597931435689f72ae9693a0e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61f6bd6d76536be6f273233f9beac3a8') in 0.034192 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/ThirdPart/MegaPack1Lite/EnchantedForestPack1/Prefabs/enchantedforest_log.prefab
+  artifactKey: Guid(c108272a27501428cb268a4bd9bee877) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdPart/MegaPack1Lite/EnchantedForestPack1/Prefabs/enchantedforest_log.prefab using Guid(c108272a27501428cb268a4bd9bee877) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d5d38a2e8613d25ab9895d4b7a52286') in 0.029265 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/ThirdPart/MegaPack1Lite/EnchantedForestPack1/Prefabs/enchantedforest_wall_stone_1.prefab
+  artifactKey: Guid(164bc34a56ac94f74b7bd4fcceab4b17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdPart/MegaPack1Lite/EnchantedForestPack1/Prefabs/enchantedforest_wall_stone_1.prefab using Guid(164bc34a56ac94f74b7bd4fcceab4b17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71017dfbcd8046c5e950fbda65cd8cb3') in 0.041648 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/ThirdPart/Forest Arena/PrefabsBlue/Pieces/DoorRightBlue.prefab
+  artifactKey: Guid(aa9b1113051f4f547b2435df8918cab9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdPart/Forest Arena/PrefabsBlue/Pieces/DoorRightBlue.prefab using Guid(aa9b1113051f4f547b2435df8918cab9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ccc8f25663b50b8f0e4e5d8f2892012') in 0.024258 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/ThirdPart/MegaPack1Lite/EnchantedForestPack1/Prefabs/enchantedforest_tree_fallen_small.prefab
+  artifactKey: Guid(ee82e0cdb1a4545f191db93ad009f94b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdPart/MegaPack1Lite/EnchantedForestPack1/Prefabs/enchantedforest_tree_fallen_small.prefab using Guid(ee82e0cdb1a4545f191db93ad009f94b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad89555cd86cb3272a5064657afee029') in 0.032969 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/ThirdPart/Polylised - Medieval Desert City/Prefabs/prefab_props/fence.prefab
+  artifactKey: Guid(4d4f3743a7b39904aa665563fe459249) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdPart/Polylised - Medieval Desert City/Prefabs/prefab_props/fence.prefab using Guid(4d4f3743a7b39904aa665563fe459249) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d55efa32f5e2d7fe2efc0302c51eaae') in 0.028994 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/ThirdPart/Forest Arena/PrefabsBlue/Pieces/DoorLeftBBlue.prefab
+  artifactKey: Guid(95341d53ce12a04428b73c4c9aa432ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdPart/Forest Arena/PrefabsBlue/Pieces/DoorLeftBBlue.prefab using Guid(95341d53ce12a04428b73c4c9aa432ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ed65ddec332ae4b727cccb2c2a601f8') in 0.027548 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/ThirdPart/MegaPack1Lite/EnchantedForestPack1/Prefabs/enchantedforest_tree_1.prefab
+  artifactKey: Guid(7561da044a00645e39d086b91c138738) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdPart/MegaPack1Lite/EnchantedForestPack1/Prefabs/enchantedforest_tree_1.prefab using Guid(7561da044a00645e39d086b91c138738) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e054f99803c77241a3b076c76f126f86') in 0.034985 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.296745 seconds.
+  path: Assets/ThirdPart/Wand and Circles/Polygon City Free Pack - Environment and Interior/Prefabs/Stones/Little Stones/Little Stone_3.prefab
+  artifactKey: Guid(97c7ef7ead6228b48aa04ea61808e57b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdPart/Wand and Circles/Polygon City Free Pack - Environment and Interior/Prefabs/Stones/Little Stones/Little Stone_3.prefab using Guid(97c7ef7ead6228b48aa04ea61808e57b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65f9b673bbb945767fc2c2e2ca322e3c') in 0.020107 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/ThirdPart/Wand and Circles/Polygon City Free Pack - Environment and Interior/Prefabs/Stones/Little Stones/Little Stone_11.prefab
+  artifactKey: Guid(30c895ebf72f7ff4c9d0595a999ffee8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdPart/Wand and Circles/Polygon City Free Pack - Environment and Interior/Prefabs/Stones/Little Stones/Little Stone_11.prefab using Guid(30c895ebf72f7ff4c9d0595a999ffee8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c20fdd616c0d548722104321ca519128') in 0.031081 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/ThirdPart/Wand and Circles/Polygon City Free Pack - Environment and Interior/Prefabs/Stones/Little Stones/Little Stone_12.prefab
+  artifactKey: Guid(8eece6cf49c1793499a331b35d1a7c2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdPart/Wand and Circles/Polygon City Free Pack - Environment and Interior/Prefabs/Stones/Little Stones/Little Stone_12.prefab using Guid(8eece6cf49c1793499a331b35d1a7c2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3b1b9a38d71de6685968f9b58e76cab') in 0.022916 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/ThirdPart/Wand and Circles/Polygon City Free Pack - Environment and Interior/Prefabs/Stones/Little Stones/Little Stone_6.prefab
+  artifactKey: Guid(60b52e7ce30261149bd54f899ae72260) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdPart/Wand and Circles/Polygon City Free Pack - Environment and Interior/Prefabs/Stones/Little Stones/Little Stone_6.prefab using Guid(60b52e7ce30261149bd54f899ae72260) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62fec5913d7a3cbd23017ac0751c42ae') in 0.022361 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/ThirdPart/Wand and Circles/Polygon City Free Pack - Environment and Interior/Prefabs/Stones/Little Stones/Little Stone_9.prefab
+  artifactKey: Guid(464ff2c97a29e994c953609adf26d460) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdPart/Wand and Circles/Polygon City Free Pack - Environment and Interior/Prefabs/Stones/Little Stones/Little Stone_9.prefab using Guid(464ff2c97a29e994c953609adf26d460) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22d7225ac96cbef9428e3a983bcb9a1d') in 0.020343 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/ThirdPart/Wand and Circles/Polygon City Free Pack - Environment and Interior/Prefabs/Stones/Little Stones/Little Stone_10.prefab
+  artifactKey: Guid(86bb4051606871c428f5c653933a922b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdPart/Wand and Circles/Polygon City Free Pack - Environment and Interior/Prefabs/Stones/Little Stones/Little Stone_10.prefab using Guid(86bb4051606871c428f5c653933a922b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be24c7ef8a38106cc997f90685d900ef') in 0.026803 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.091150 seconds.
+  path: Assets/ThirdPart/Polylised - Medieval Desert City/Prefabs/prefab_trees/pine_a.prefab
+  artifactKey: Guid(4cc4a170ba1e7ae48a9688fe23ddbe89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdPart/Polylised - Medieval Desert City/Prefabs/prefab_trees/pine_a.prefab using Guid(4cc4a170ba1e7ae48a9688fe23ddbe89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a44762f6a051c04be95ef09ca9a063a') in 0.019715 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/ThirdPart/Polylised - Medieval Desert City/Prefabs/prefab_unique_buildings/port_wall_b_corner.prefab
+  artifactKey: Guid(4dd10cce757d82345b46b93c96d330d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdPart/Polylised - Medieval Desert City/Prefabs/prefab_unique_buildings/port_wall_b_corner.prefab using Guid(4dd10cce757d82345b46b93c96d330d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9be34cca1bd7986c95cb2e379581656c') in 0.022336 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/ThirdPart/MegaPack1Lite/SciFiPack1/Prefabs/scifi_column.prefab
+  artifactKey: Guid(73f568b2946aa4b97abf0909bef6bb2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdPart/MegaPack1Lite/SciFiPack1/Prefabs/scifi_column.prefab using Guid(73f568b2946aa4b97abf0909bef6bb2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b8de07be85690868d418f93311ee669') in 0.023719 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/ThirdPart/MegaPack1Lite/SciFiPack1/Prefabs/scifi_fence.prefab
+  artifactKey: Guid(b38a4b46983ce4841bfbdb437ba0e895) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdPart/MegaPack1Lite/SciFiPack1/Prefabs/scifi_fence.prefab using Guid(b38a4b46983ce4841bfbdb437ba0e895) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3d439e53b122fa5e6d7e9422d27f5d5') in 0.019991 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/ThirdPart/MegaPack1Lite/Steampunk/Prefabs/steampunk_apparatus_2.prefab
+  artifactKey: Guid(8e255827ab7504fb3aea8be947625eaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdPart/MegaPack1Lite/Steampunk/Prefabs/steampunk_apparatus_2.prefab using Guid(8e255827ab7504fb3aea8be947625eaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e304a6c00aad046f8c02254403ad8030') in 0.031975 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/ThirdPart/Polylised - Medieval Desert City/Prefabs/prefab_props/port_wooden_bridge_a_short.prefab
+  artifactKey: Guid(a90ee5c6394650e4eb64c18fa8ac3928) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdPart/Polylised - Medieval Desert City/Prefabs/prefab_props/port_wooden_bridge_a_short.prefab using Guid(a90ee5c6394650e4eb64c18fa8ac3928) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c9709f1d92477c1a523e0028f5e19aa') in 0.021133 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/ThirdPart/Polylised - Medieval Desert City/Prefabs/prefab_terrain/terrain_05.prefab
+  artifactKey: Guid(26d164a32bdfbdd4994ed8c78b1aed29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdPart/Polylised - Medieval Desert City/Prefabs/prefab_terrain/terrain_05.prefab using Guid(26d164a32bdfbdd4994ed8c78b1aed29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89f6a0aa2d0161a1300736023edcbe50') in 0.021387 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/ThirdPart/Polylised - Medieval Desert City/Prefabs/prefab_terrain/terrain_10.prefab
+  artifactKey: Guid(da6278f84675c054fa2ff4da9555db84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdPart/Polylised - Medieval Desert City/Prefabs/prefab_terrain/terrain_10.prefab using Guid(da6278f84675c054fa2ff4da9555db84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6f9cf85465413d92fe689e2546bd8f7') in 0.022463 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/ThirdPart/Polylised - Medieval Desert City/Prefabs/prefab_terrain/terrain_06.prefab
+  artifactKey: Guid(e0bdb26ae5b35e247aa29e160391211b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdPart/Polylised - Medieval Desert City/Prefabs/prefab_terrain/terrain_06.prefab using Guid(e0bdb26ae5b35e247aa29e160391211b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c896acf7c879d4086a932f5b121ab013') in 0.021373 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/ThirdPart/MegaPack1Lite/ToolsAndWeapons/Prefabs/sword_large.prefab
+  artifactKey: Guid(adcd8e0f993d343d8bd27434f15383b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdPart/MegaPack1Lite/ToolsAndWeapons/Prefabs/sword_large.prefab using Guid(adcd8e0f993d343d8bd27434f15383b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '470bc2ef41b9e2107e9ec9eb35101e7d') in 0.021764 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/ThirdPart/Polylised - Medieval Desert City/Prefabs/prefab_terrain/terrain_04.prefab
+  artifactKey: Guid(5b6669a68a43aff499e4bd8144bfa622) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdPart/Polylised - Medieval Desert City/Prefabs/prefab_terrain/terrain_04.prefab using Guid(5b6669a68a43aff499e4bd8144bfa622) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '671b08c0d51e2ab0e02c4b20ca9d124c') in 0.021073 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/ThirdPart/Wand and Circles/Polygon City Free Pack - Environment and Interior/Prefabs/Trees/Tree_3.prefab
+  artifactKey: Guid(e53b4d838059af64c96aa8b5a0b4fbd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdPart/Wand and Circles/Polygon City Free Pack - Environment and Interior/Prefabs/Trees/Tree_3.prefab using Guid(e53b4d838059af64c96aa8b5a0b4fbd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5368b8d02cb9bf783a66b5b4ee5b2b02') in 0.022995 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000108 seconds.
+  path: Assets/ThirdPart/Polylised - Medieval Desert City/Prefabs/prefab_terrain/terrain_09.prefab
+  artifactKey: Guid(c90b1aab4972a774cb5ef074e08107fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdPart/Polylised - Medieval Desert City/Prefabs/prefab_terrain/terrain_09.prefab using Guid(c90b1aab4972a774cb5ef074e08107fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37fa562baebd4b2410cd8f77a3384af1') in 0.022743 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/ThirdPart/Wand and Circles/Polygon City Free Pack - Environment and Interior/Prefabs/Trees/Tree_4.prefab
+  artifactKey: Guid(f4d2489e02987df4982f3e366aaef83f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdPart/Wand and Circles/Polygon City Free Pack - Environment and Interior/Prefabs/Trees/Tree_4.prefab using Guid(f4d2489e02987df4982f3e366aaef83f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e642343e45b57c47c89660161677cde3') in 0.023109 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/ThirdPart/Polylised - Medieval Desert City/Prefabs/prefab_props/tent_c.prefab
+  artifactKey: Guid(8bee2cb511be01b4486e91bbc5048ab4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdPart/Polylised - Medieval Desert City/Prefabs/prefab_props/tent_c.prefab using Guid(8bee2cb511be01b4486e91bbc5048ab4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddb7ac1d2cd55fcce7d5a227122ee7fc') in 0.030960 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/ThirdPart/Polylised - Medieval Desert City/Prefabs/prefab_civilian_buildings/wooden_support_1.prefab
+  artifactKey: Guid(e55d8ea4cf760ff43a82e45bdcc08317) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdPart/Polylised - Medieval Desert City/Prefabs/prefab_civilian_buildings/wooden_support_1.prefab using Guid(e55d8ea4cf760ff43a82e45bdcc08317) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43b6342c2dd2ac938072cddc3cf9669d') in 0.026971 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000150 seconds.
+  path: Assets/ThirdPart/MegaPack1Lite/SciFiPack1/Prefabs/scifi_floor_2.prefab
+  artifactKey: Guid(82b53386f30c7457a954e202207c2a7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdPart/MegaPack1Lite/SciFiPack1/Prefabs/scifi_floor_2.prefab using Guid(82b53386f30c7457a954e202207c2a7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2f96c47d8fe1d3be40243df761406a0') in 0.036018 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/ThirdPart/MegaPack1Lite/Steampunk/Prefabs/steampunk_fence.prefab
+  artifactKey: Guid(f815c8b7b23044c29bc726b9648c8edb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdPart/MegaPack1Lite/Steampunk/Prefabs/steampunk_fence.prefab using Guid(f815c8b7b23044c29bc726b9648c8edb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4b83284e5f616081abecad0d2d949c7') in 0.023987 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/ThirdPart/Polylised - Medieval Desert City/Prefabs/prefab_props/tent_a.prefab
+  artifactKey: Guid(b03d0fc686eaa7342bab75d9a173417c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdPart/Polylised - Medieval Desert City/Prefabs/prefab_props/tent_a.prefab using Guid(b03d0fc686eaa7342bab75d9a173417c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62fb3db35a57beed321caec9b6c84c05') in 0.027969 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/ThirdPart/MegaPack1Lite/Steampunk/Prefabs/steampunk_cable_hanging.prefab
+  artifactKey: Guid(d0ec3bcef18bc4a8ca8edfdaac57e911) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdPart/MegaPack1Lite/Steampunk/Prefabs/steampunk_cable_hanging.prefab using Guid(d0ec3bcef18bc4a8ca8edfdaac57e911) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06624cb61fa6a0cffcab34420542597b') in 0.022031 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/ThirdPart/MegaPack1Lite/SciFiPack1/Prefabs/scifi_pad.prefab
+  artifactKey: Guid(43273b81298614d8883dbf51bd023c32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdPart/MegaPack1Lite/SciFiPack1/Prefabs/scifi_pad.prefab using Guid(43273b81298614d8883dbf51bd023c32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd6958efad920d73711c8ea1ee8b8553') in 0.032186 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/ThirdPart/Polylised - Medieval Desert City/Prefabs/prefab_terrain/terrain_03.prefab
+  artifactKey: Guid(3be38c9ef3e505c43a61e68ff07fecf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdPart/Polylised - Medieval Desert City/Prefabs/prefab_terrain/terrain_03.prefab using Guid(3be38c9ef3e505c43a61e68ff07fecf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34a41d05b5584194ac5ccb554dc621c4') in 0.028775 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/ThirdPart/Polylised - Medieval Desert City/Prefabs/prefab_unique_buildings/port_wall_a.prefab
+  artifactKey: Guid(054a9c568cb242643994f3f0ed0eaed0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdPart/Polylised - Medieval Desert City/Prefabs/prefab_unique_buildings/port_wall_a.prefab using Guid(054a9c568cb242643994f3f0ed0eaed0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79bfae37ac12eea512ac4867d098c49d') in 0.030341 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/ThirdPart/Forest Arena/PrefabsGeneral/WaterQuad.prefab
+  artifactKey: Guid(358cf835a1cf6dc44be7c394778cb1ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdPart/Forest Arena/PrefabsGeneral/WaterQuad.prefab using Guid(358cf835a1cf6dc44be7c394778cb1ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cca85b1bbd1191345c6cf8149f37eb8') in 0.021627 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/ThirdPart/MegaPack1Lite/Steampunk/Prefabs/steampunk_roof_metal.prefab
+  artifactKey: Guid(6aa634502bd98485babd158eb01ed8ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdPart/MegaPack1Lite/Steampunk/Prefabs/steampunk_roof_metal.prefab using Guid(6aa634502bd98485babd158eb01ed8ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfb7ff3d88fe932d40a4e9ad997dc844') in 0.021350 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/ThirdPart/Polylised - Medieval Desert City/Prefabs/prefab_unique_buildings/port_wall_corner_c.prefab
+  artifactKey: Guid(563c8921ad00daa4e91c88a663e8ab8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdPart/Polylised - Medieval Desert City/Prefabs/prefab_unique_buildings/port_wall_corner_c.prefab using Guid(563c8921ad00daa4e91c88a663e8ab8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c95c526bebbd54ed9c5d9ebe35a09a03') in 0.026120 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/ThirdPart/MegaPack1Lite/SciFiPack1/Prefabs/scifi_console.prefab
+  artifactKey: Guid(cb0d26a0663294a4a8a126034fd91708) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdPart/MegaPack1Lite/SciFiPack1/Prefabs/scifi_console.prefab using Guid(cb0d26a0663294a4a8a126034fd91708) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80c3886e74f03f8d4e569346198c45d7') in 0.033219 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/ThirdPart/Polylised - Medieval Desert City/Prefabs/prefab_props/well.prefab
+  artifactKey: Guid(3b4b895324db4f14dbd234beb3346ac3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdPart/Polylised - Medieval Desert City/Prefabs/prefab_props/well.prefab using Guid(3b4b895324db4f14dbd234beb3346ac3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c428e44931011955651e2bf112250a21') in 0.193776 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/ThirdPart/MegaPack1Lite/Steampunk/Prefabs/steampunk_crane.prefab
+  artifactKey: Guid(d87442a29587f489d88e0a383be8c5ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdPart/MegaPack1Lite/Steampunk/Prefabs/steampunk_crane.prefab using Guid(d87442a29587f489d88e0a383be8c5ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb6d04a4daabb8f156fdb16613217e4d') in 0.034238 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/ThirdPart/Polylised - Medieval Desert City/Prefabs/prefab_terrain/terrain_07.prefab
+  artifactKey: Guid(dee1f1bc8c892874aac53e339eb2157c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdPart/Polylised - Medieval Desert City/Prefabs/prefab_terrain/terrain_07.prefab using Guid(dee1f1bc8c892874aac53e339eb2157c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdd5eb93f29b6111bd26ef92b47fbd5d') in 0.028150 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/ThirdPart/Wand and Circles/Polygon City Free Pack - Environment and Interior/Prefabs/Trees/Tree_1.prefab
+  artifactKey: Guid(f68ca928f6c76ca4993083296704ea01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdPart/Wand and Circles/Polygon City Free Pack - Environment and Interior/Prefabs/Trees/Tree_1.prefab using Guid(f68ca928f6c76ca4993083296704ea01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db3529b6d73d20d0e22b3b729c97b4b9') in 0.026956 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/ThirdPart/Wand and Circles/Polygon City Free Pack - Environment and Interior/Prefabs/Buildings/Garage/Walls 1.prefab
+  artifactKey: Guid(c2b35dbf46635a3488cb1a732a373f1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdPart/Wand and Circles/Polygon City Free Pack - Environment and Interior/Prefabs/Buildings/Garage/Walls 1.prefab using Guid(c2b35dbf46635a3488cb1a732a373f1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e045dc0bddef51c7655ee6505c244c00') in 0.027825 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/ThirdPart/Polylised - Medieval Desert City/Prefabs/prefab_props/port_chains.prefab
+  artifactKey: Guid(6a09f0a2ff9b5e74190cfdbf69b6be22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdPart/Polylised - Medieval Desert City/Prefabs/prefab_props/port_chains.prefab using Guid(6a09f0a2ff9b5e74190cfdbf69b6be22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8423fb03df04f3984497959974d9130') in 0.032300 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/ThirdPart/MegaPack1Lite/Steampunk/Prefabs/steampunk_piping_vertical.prefab
+  artifactKey: Guid(36fd6c2b72c3d48f0803d98b24c355be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdPart/MegaPack1Lite/Steampunk/Prefabs/steampunk_piping_vertical.prefab using Guid(36fd6c2b72c3d48f0803d98b24c355be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28f405a451948d0a66c0b7e70bfd0258') in 0.027967 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/ThirdPart/MegaPack1Lite/GreekPack1Lite/Prefabs/Buildings/Temple.prefab
+  artifactKey: Guid(9293442b452d64a09b2bbd4bd563a965) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdPart/MegaPack1Lite/GreekPack1Lite/Prefabs/Buildings/Temple.prefab using Guid(9293442b452d64a09b2bbd4bd563a965) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ef008d5c37524bbc3d420decd5cf3e7') in 0.097254 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/ThirdPart/Polylised - Medieval Desert City/Prefabs/prefab_props/port_wooden_bridge_a_corner.prefab
+  artifactKey: Guid(280948f6a746a8e4881e0cbf06959cbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdPart/Polylised - Medieval Desert City/Prefabs/prefab_props/port_wooden_bridge_a_corner.prefab using Guid(280948f6a746a8e4881e0cbf06959cbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e2fd60cb617f5073ef1ddf74ed533f4') in 0.030514 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/ThirdPart/Polylised - Medieval Desert City/Prefabs/prefab_props/street_oil_light.prefab
+  artifactKey: Guid(398a6f9bbb6267643bbbfdbeae09ead3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdPart/Polylised - Medieval Desert City/Prefabs/prefab_props/street_oil_light.prefab using Guid(398a6f9bbb6267643bbbfdbeae09ead3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95612cefe1b22421f8edacbdbfda12f2') in 0.264178 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/ThirdPart/Polylised - Medieval Desert City/Prefabs/prefab_civilian_buildings/roof_building_8.prefab
+  artifactKey: Guid(99d062afc5365824d84679b7d866f71b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdPart/Polylised - Medieval Desert City/Prefabs/prefab_civilian_buildings/roof_building_8.prefab using Guid(99d062afc5365824d84679b7d866f71b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff8463c6e0b8356cf95b5905e774a898') in 0.031501 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/ThirdPart/MegaPack1Lite/SciFiPack1/Prefabs/scifi_door_1.prefab
+  artifactKey: Guid(a4287460fe00b44dbb6b2ef7124af01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdPart/MegaPack1Lite/SciFiPack1/Prefabs/scifi_door_1.prefab using Guid(a4287460fe00b44dbb6b2ef7124af01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2dfab7411d26021343a67f54c7b8a9c3') in 0.029524 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/ThirdPart/MegaPack1Lite/Steampunk/Prefabs/steampunk_road_1.prefab
+  artifactKey: Guid(c7fac5157e2324e32914aa7f4eac7b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdPart/MegaPack1Lite/Steampunk/Prefabs/steampunk_road_1.prefab using Guid(c7fac5157e2324e32914aa7f4eac7b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b04dcca896871496a648134c534ae33') in 0.021424 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/ThirdPart/Polylised - Medieval Desert City/Prefabs/prefab_trees/pine_c.prefab
+  artifactKey: Guid(f6a029b9b005e3b48ba76000f8c2b62a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdPart/Polylised - Medieval Desert City/Prefabs/prefab_trees/pine_c.prefab using Guid(f6a029b9b005e3b48ba76000f8c2b62a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c42946cc3957785572516118f1585665') in 0.032347 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/ThirdPart/MegaPack1Lite/Steampunk/Prefabs/steampunk_valve_3.prefab
+  artifactKey: Guid(162e69f8e56ed43d8b503fac3c8da1c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdPart/MegaPack1Lite/Steampunk/Prefabs/steampunk_valve_3.prefab using Guid(162e69f8e56ed43d8b503fac3c8da1c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92924dd82d86bca87eb4e5c79af7a6bb') in 0.024025 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/ThirdPart/Wand and Circles/Polygon City Free Pack - Environment and Interior/Prefabs/Trees/Tree_0.prefab
+  artifactKey: Guid(b3346243102ac92468ba836d7a0084e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdPart/Wand and Circles/Polygon City Free Pack - Environment and Interior/Prefabs/Trees/Tree_0.prefab using Guid(b3346243102ac92468ba836d7a0084e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03943b26f6ffe59c1ab154b870125a4f') in 0.024841 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/ThirdPart/MegaPack1Lite/Steampunk/Prefabs/steampunk_siding.prefab
+  artifactKey: Guid(3ca34eff121284b488a7ee29ba8a28a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdPart/MegaPack1Lite/Steampunk/Prefabs/steampunk_siding.prefab using Guid(3ca34eff121284b488a7ee29ba8a28a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83947472bdd06b42c85eaa74b4634533') in 0.034257 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/ThirdPart/Wand and Circles/Polygon City Free Pack - Environment and Interior/Prefabs/Buildings/Modular/Walls_0.prefab
+  artifactKey: Guid(498eccc7b6b1ac34083ee83096a35952) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdPart/Wand and Circles/Polygon City Free Pack - Environment and Interior/Prefabs/Buildings/Modular/Walls_0.prefab using Guid(498eccc7b6b1ac34083ee83096a35952) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9317d08f3fd78e0c99391acde4436280') in 0.035067 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/ThirdPart/Wand and Circles/Polygon City Free Pack - Environment and Interior/Prefabs/Trees/Tree_2.prefab
+  artifactKey: Guid(a7c776caf2c967c439afe64c858c990f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdPart/Wand and Circles/Polygon City Free Pack - Environment and Interior/Prefabs/Trees/Tree_2.prefab using Guid(a7c776caf2c967c439afe64c858c990f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '002a323a95a224dd1176a10731c90ff4') in 0.032049 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/ThirdPart/MegaPack1Lite/Steampunk/Prefabs/steampunk_cog.prefab
+  artifactKey: Guid(ac3eba1f8af7f40d0b364a58a87b66ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdPart/MegaPack1Lite/Steampunk/Prefabs/steampunk_cog.prefab using Guid(ac3eba1f8af7f40d0b364a58a87b66ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47f5fc5d8863aa40b65d10cb43d367f7') in 0.031866 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/ThirdPart/Polylised - Medieval Desert City/Prefabs/prefab_civilian_buildings/roof_building_9.prefab
+  artifactKey: Guid(0a16023fc512a7f47a63e559f906fa2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdPart/Polylised - Medieval Desert City/Prefabs/prefab_civilian_buildings/roof_building_9.prefab using Guid(0a16023fc512a7f47a63e559f906fa2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6418bf760bd07dab1da5b68fbf58ec9a') in 0.027612 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/ThirdPart/MegaPack1Lite/Steampunk/Prefabs/steampunk_roof_metal_corner.prefab
+  artifactKey: Guid(2ea08d63ee4fe4ef5ba5bf382a2c5e9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdPart/MegaPack1Lite/Steampunk/Prefabs/steampunk_roof_metal_corner.prefab using Guid(2ea08d63ee4fe4ef5ba5bf382a2c5e9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84cbaae9fc7f27d02ed2982369a5e951') in 0.020184 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.353014 seconds.
+  path: Assets/ThirdPart/Wand and Circles/Polygon City Free Pack - Environment and Interior/Prefabs/Trees/Tree_32.prefab
+  artifactKey: Guid(28baadc9ea818dc44bf4d83596a82f5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdPart/Wand and Circles/Polygon City Free Pack - Environment and Interior/Prefabs/Trees/Tree_32.prefab using Guid(28baadc9ea818dc44bf4d83596a82f5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c8142f494fd11552b6b79375338600a') in 0.019680 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/ThirdPart/Wand and Circles/Polygon City Free Pack - Environment and Interior/Prefabs/Trees/Tree_34.prefab
+  artifactKey: Guid(ebdc43a1651b3c14fb50f61b67f8daed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdPart/Wand and Circles/Polygon City Free Pack - Environment and Interior/Prefabs/Trees/Tree_34.prefab using Guid(ebdc43a1651b3c14fb50f61b67f8daed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18afd996d19e89eeaa8a5b437b21c301') in 0.019562 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/ThirdPart/MegaPack1Lite/VictorianPack/Prefabs/victorian_roof_1_side.prefab
+  artifactKey: Guid(c9aeb4399ae4b452798789201fffc05d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdPart/MegaPack1Lite/VictorianPack/Prefabs/victorian_roof_1_side.prefab using Guid(c9aeb4399ae4b452798789201fffc05d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6a61744c4c3c31769bc944b5b9db0b6') in 0.026551 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/ThirdPart/Polylised - Medieval Desert City/Prefabs/prefab_unique_buildings/wall_H10m_L15m.prefab
+  artifactKey: Guid(b6653bc308eabd24d89947d5c89a11d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdPart/Polylised - Medieval Desert City/Prefabs/prefab_unique_buildings/wall_H10m_L15m.prefab using Guid(b6653bc308eabd24d89947d5c89a11d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6362a63ec0d1817105fdf893c5a74531') in 0.026222 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/ThirdPart/Polylised - Medieval Desert City/Prefabs/prefab_unique_buildings/street_gate.prefab
+  artifactKey: Guid(10c0f718749c68e43b5c31ada6d15472) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdPart/Polylised - Medieval Desert City/Prefabs/prefab_unique_buildings/street_gate.prefab using Guid(10c0f718749c68e43b5c31ada6d15472) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b7d0252e573ee7cb1dbd47a7a0b1452') in 0.018597 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/ThirdPart/Wand and Circles/Polygon City Free Pack - Environment and Interior/Prefabs/Buildings/Shop/Shop.prefab
+  artifactKey: Guid(55b9c9bce2089194f82297ceef709566) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdPart/Wand and Circles/Polygon City Free Pack - Environment and Interior/Prefabs/Buildings/Shop/Shop.prefab using Guid(55b9c9bce2089194f82297ceef709566) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8f4e792acfd6e1332aa79837ee8b0e2') in 0.030427 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/ThirdPart/MegaPack1Lite/VictorianPack/Prefabs/victorian_wall_brick_1_door.prefab
+  artifactKey: Guid(df4e63dd0e636425997108ff5079a4e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdPart/MegaPack1Lite/VictorianPack/Prefabs/victorian_wall_brick_1_door.prefab using Guid(df4e63dd0e636425997108ff5079a4e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc476798bc7c678c8971cafd009f24a0') in 0.035561 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/ThirdPart/Wand and Circles/Polygon City Free Pack - Environment and Interior/Prefabs/Buildings/Sheds/Shed.prefab
+  artifactKey: Guid(9c9a9dc4d9bda7c42ad799b19458ac7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdPart/Wand and Circles/Polygon City Free Pack - Environment and Interior/Prefabs/Buildings/Sheds/Shed.prefab using Guid(9c9a9dc4d9bda7c42ad799b19458ac7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f6d0289871ea3305ee500503cacd013') in 0.042160 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000626 seconds.
+  path: Assets/ThirdPart/Wand and Circles/Polygon City Free Pack - Environment and Interior/Prefabs/Buildings/Modular/Roof prop_2.prefab
+  artifactKey: Guid(b0034f4f2a491e344b87ae0a43db7806) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdPart/Wand and Circles/Polygon City Free Pack - Environment and Interior/Prefabs/Buildings/Modular/Roof prop_2.prefab using Guid(b0034f4f2a491e344b87ae0a43db7806) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a78848832de93121838b381992593485') in 0.029832 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/ThirdPart/Polylised - Medieval Desert City/Prefabs/prefab_civilian_buildings/roof_building_1.prefab
+  artifactKey: Guid(6d7f3993ef0bfee44b226342f4568dbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdPart/Polylised - Medieval Desert City/Prefabs/prefab_civilian_buildings/roof_building_1.prefab using Guid(6d7f3993ef0bfee44b226342f4568dbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf863fd35559e14c61c307204f9806c6') in 0.027091 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/ThirdPart/MegaPack1Lite/RomanCityPack1Lite/Prefabs/Models/Standard/roman_fence_wood_2.prefab
+  artifactKey: Guid(bf12cc99a5ede4c6694d37f2f4fa98b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdPart/MegaPack1Lite/RomanCityPack1Lite/Prefabs/Models/Standard/roman_fence_wood_2.prefab using Guid(bf12cc99a5ede4c6694d37f2f4fa98b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1efed80323cb0a4d2dff49a8cb2f1545') in 0.023137 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/ThirdPart/Polylised - Medieval Desert City/Prefabs/prefab_props/port_wooden_bridge_b.prefab
+  artifactKey: Guid(5ecb87e016574fc409879b08c324c178) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdPart/Polylised - Medieval Desert City/Prefabs/prefab_props/port_wooden_bridge_b.prefab using Guid(5ecb87e016574fc409879b08c324c178) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1eaf461ec02f02e946be68af382a3da6') in 0.027654 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/ThirdPart/MegaPack1Lite/VictorianPack/Prefabs/victorian_door_1.prefab
+  artifactKey: Guid(e2fa08c0834cf49e8bc1ab3721e6a369) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdPart/MegaPack1Lite/VictorianPack/Prefabs/victorian_door_1.prefab using Guid(e2fa08c0834cf49e8bc1ab3721e6a369) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3a63b6cc9e68eab8e8a4927c5d4aa5d') in 0.022992 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/ThirdPart/MegaPack1Lite/GreekPack1Lite/Prefabs/Objects/greek_column_1.prefab
+  artifactKey: Guid(b67c34942f06641839dbb616d6b0423f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdPart/MegaPack1Lite/GreekPack1Lite/Prefabs/Objects/greek_column_1.prefab using Guid(b67c34942f06641839dbb616d6b0423f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bb9a48474714111a3d81cf826337d0e') in 0.022589 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/ThirdPart/MegaPack1Lite/GreekPack1Lite/Prefabs/Objects/Optimized/greek_roof_1_square.prefab
+  artifactKey: Guid(bc4d7f338806343c0af659202a9aa4a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdPart/MegaPack1Lite/GreekPack1Lite/Prefabs/Objects/Optimized/greek_roof_1_square.prefab using Guid(bc4d7f338806343c0af659202a9aa4a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6786c40e3b74e2aeefd1d2406d2515ad') in 0.020931 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/ThirdPart/Wand and Circles/Polygon City Free Pack - Environment and Interior/Prefabs/Desks/Desk_9.prefab
+  artifactKey: Guid(6bd930ad73b9ff84daa128f8c0f85b65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdPart/Wand and Circles/Polygon City Free Pack - Environment and Interior/Prefabs/Desks/Desk_9.prefab using Guid(6bd930ad73b9ff84daa128f8c0f85b65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd348331ea554743e45c40ef202b6aa20') in 0.024050 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/ThirdPart/Wand and Circles/Polygon City Free Pack - Environment and Interior/Prefabs/Desks/Desk_26.prefab
+  artifactKey: Guid(d9da5dba726a1e647b4f3dd9e7621eff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdPart/Wand and Circles/Polygon City Free Pack - Environment and Interior/Prefabs/Desks/Desk_26.prefab using Guid(d9da5dba726a1e647b4f3dd9e7621eff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4dc713d2f758f2b7918b71c1afc07c6a') in 0.017870 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/ThirdPart/MegaPack1Lite/VictorianPack/Prefabs/victorian_column_1.prefab
+  artifactKey: Guid(f45176423b90e49f1bc0fdde456b0a82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdPart/MegaPack1Lite/VictorianPack/Prefabs/victorian_column_1.prefab using Guid(f45176423b90e49f1bc0fdde456b0a82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e9718225a99a29e09e4d4bfc54d2d36') in 0.017456 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/ThirdPart/Polylised - Medieval Desert City/Prefabs/prefab_civilian_buildings/civilian_house_46.prefab
+  artifactKey: Guid(684c41fa6c48007449e7839957a4a5da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdPart/Polylised - Medieval Desert City/Prefabs/prefab_civilian_buildings/civilian_house_46.prefab using Guid(684c41fa6c48007449e7839957a4a5da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb01871f144b11c1c97abe8aa7461d1f') in 0.031425 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/ThirdPart/Polylised - Medieval Desert City/Prefabs/prefab_terrain/cliff_03.prefab
+  artifactKey: Guid(b9f2941615c218b4282635a3390d783c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdPart/Polylised - Medieval Desert City/Prefabs/prefab_terrain/cliff_03.prefab using Guid(b9f2941615c218b4282635a3390d783c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48ed105b67f3f9157417a4f8165e6a2b') in 0.031908 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/ThirdPart/MegaPack1Lite/SciFiPack1/Prefabs/scifi_wall_bowed_striped.prefab
+  artifactKey: Guid(21bd39da5ab034f50ade985f56e42274) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdPart/MegaPack1Lite/SciFiPack1/Prefabs/scifi_wall_bowed_striped.prefab using Guid(21bd39da5ab034f50ade985f56e42274) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a854d9f8fd86d762e65550b7468bfca1') in 0.025677 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/ThirdPart/Wand and Circles/Polygon City Free Pack - Environment and Interior/Prefabs/Buildings/Modular/Roof_1.prefab
+  artifactKey: Guid(3deb1e52cd9daeb4eb6e5f48068cb84f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdPart/Wand and Circles/Polygon City Free Pack - Environment and Interior/Prefabs/Buildings/Modular/Roof_1.prefab using Guid(3deb1e52cd9daeb4eb6e5f48068cb84f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38e0011e75cd1982e72597aac5ff7975') in 0.029367 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/ThirdPart/Polylised - Medieval Desert City/Prefabs/prefab_civilian_buildings/standard_rooftop_window.prefab
+  artifactKey: Guid(20fad2715d170e34d98615cc2c57aea5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdPart/Polylised - Medieval Desert City/Prefabs/prefab_civilian_buildings/standard_rooftop_window.prefab using Guid(20fad2715d170e34d98615cc2c57aea5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27871c3e0b6a8d3f99d4ca8ca0752047') in 0.030560 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/ThirdPart/MegaPack1Lite/GreekPack1Lite/Prefabs/Objects/Optimized/greek_floor_stone_1.prefab
+  artifactKey: Guid(64415c113d5164fec8cdb5d9de6e3c50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdPart/MegaPack1Lite/GreekPack1Lite/Prefabs/Objects/Optimized/greek_floor_stone_1.prefab using Guid(64415c113d5164fec8cdb5d9de6e3c50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0c328e1a67e2a7ca4b19d629eda7329') in 0.019314 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/ThirdPart/Wand and Circles/Polygon City Free Pack - Environment and Interior/Prefabs/Desks/Desk_16.prefab
+  artifactKey: Guid(6355fff73411f7643b24dd810706a668) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdPart/Wand and Circles/Polygon City Free Pack - Environment and Interior/Prefabs/Desks/Desk_16.prefab using Guid(6355fff73411f7643b24dd810706a668) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e45678f88908dcd33bdfa7f673373b07') in 0.024533 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/ThirdPart/MegaPack1Lite/VictorianPack/Prefabs/victorian_floor_flagstone.prefab
+  artifactKey: Guid(deb220f1d8b3e41dbb97231ceae6dad6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdPart/MegaPack1Lite/VictorianPack/Prefabs/victorian_floor_flagstone.prefab using Guid(deb220f1d8b3e41dbb97231ceae6dad6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd25788042fa63d4243a926b8a7d97fa') in 0.023755 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/ThirdPart/MegaPack1Lite/RomanCityPack1Lite/Prefabs/Models/Standard/roman_tree_cyprus_short.prefab
+  artifactKey: Guid(4683c06c948524703b36ffe1a11f9cb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdPart/MegaPack1Lite/RomanCityPack1Lite/Prefabs/Models/Standard/roman_tree_cyprus_short.prefab using Guid(4683c06c948524703b36ffe1a11f9cb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee6370a6396bfb8c458018a85a14b1b7') in 0.022166 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/ThirdPart/Polylised - Medieval Desert City/Prefabs/prefab_civilian_buildings/roof_building_6_a.prefab
+  artifactKey: Guid(84d3360cbaae9bd458e10b9265f52b72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdPart/Polylised - Medieval Desert City/Prefabs/prefab_civilian_buildings/roof_building_6_a.prefab using Guid(84d3360cbaae9bd458e10b9265f52b72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14f09fed7686fdbe4549e41ae8175fbe') in 0.025618 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/ThirdPart/Polylised - Medieval Desert City/Prefabs/prefab_terrain/cliff_06.prefab
+  artifactKey: Guid(2a7be97057e016840ac411d94757feb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdPart/Polylised - Medieval Desert City/Prefabs/prefab_terrain/cliff_06.prefab using Guid(2a7be97057e016840ac411d94757feb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6c1348f46279bd3ea999e764551c71a') in 0.019997 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000135 seconds.
+  path: Assets/ThirdPart/MegaPack1Lite/VictorianPack/Prefabs/victorian_window_square.prefab
+  artifactKey: Guid(4231c830c53554b63b0795c345f7bb52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdPart/MegaPack1Lite/VictorianPack/Prefabs/victorian_window_square.prefab using Guid(4231c830c53554b63b0795c345f7bb52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d0eb417f45565075c88c5db1f1c00b7') in 0.023834 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/ThirdPart/Wand and Circles/Polygon City Free Pack - Environment and Interior/Prefabs/Desks/Desk_8.prefab
+  artifactKey: Guid(f858d9cafc87d5d47a0c489ac5c5f58f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdPart/Wand and Circles/Polygon City Free Pack - Environment and Interior/Prefabs/Desks/Desk_8.prefab using Guid(f858d9cafc87d5d47a0c489ac5c5f58f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee1413e441b1b29e4b469f4a92efd1ca') in 0.027004 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/ThirdPart/Wand and Circles/Polygon City Free Pack - Environment and Interior/Prefabs/Desks/Desk_24.prefab
+  artifactKey: Guid(c85a6d0ae1d331440a659c82dd059696) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdPart/Wand and Circles/Polygon City Free Pack - Environment and Interior/Prefabs/Desks/Desk_24.prefab using Guid(c85a6d0ae1d331440a659c82dd059696) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cdeaff4370e07f91eb116c0dbf503d8') in 0.031994 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/ThirdPart/Polylised - Medieval Desert City/Prefabs/prefab_civilian_buildings/civilian_house_43.prefab
+  artifactKey: Guid(e133deccc311ef44f8ac7727eb92438a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdPart/Polylised - Medieval Desert City/Prefabs/prefab_civilian_buildings/civilian_house_43.prefab using Guid(e133deccc311ef44f8ac7727eb92438a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8443cb10b7399a272b0f2ba967a9f214') in 0.028897 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/ThirdPart/Polylised - Medieval Desert City/Prefabs/prefab_unique_buildings/sentinel_tower_a.prefab
+  artifactKey: Guid(e4dbccd50e884234ea67e66b28a5573d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdPart/Polylised - Medieval Desert City/Prefabs/prefab_unique_buildings/sentinel_tower_a.prefab using Guid(e4dbccd50e884234ea67e66b28a5573d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c6f8cda1a8b5ec043ac4ab15beced2f') in 0.039741 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/ThirdPart/Wand and Circles/Polygon City Free Pack - Environment and Interior/Prefabs/Desks/Desk_4.prefab
+  artifactKey: Guid(d89f0cafd7abc314984a752750667262) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdPart/Wand and Circles/Polygon City Free Pack - Environment and Interior/Prefabs/Desks/Desk_4.prefab using Guid(d89f0cafd7abc314984a752750667262) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88c28274776def03158c84bcb91f7a38') in 0.020249 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/ThirdPart/Polylised - Medieval Desert City/Prefabs/prefab_unique_buildings/wall_H10m_short.prefab
+  artifactKey: Guid(534b3ae6b15dbfc4d843a1e7efadd0cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdPart/Polylised - Medieval Desert City/Prefabs/prefab_unique_buildings/wall_H10m_short.prefab using Guid(534b3ae6b15dbfc4d843a1e7efadd0cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be2282d7c41a7b54e10fde8fe5e212ef') in 0.019414 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/ThirdPart/MegaPack1Lite/RomanCityPack1Lite/Prefabs/Models/Standard/roman_pot_2.prefab
+  artifactKey: Guid(aa970da93718e44768fd4f0be58be511) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdPart/MegaPack1Lite/RomanCityPack1Lite/Prefabs/Models/Standard/roman_pot_2.prefab using Guid(aa970da93718e44768fd4f0be58be511) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f58a091886c053c9e03fc460c341fa8') in 0.020586 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/ThirdPart/Polylised - Medieval Desert City/Prefabs/prefab_props/street_green_belt_a.prefab
+  artifactKey: Guid(87628799fe06ec849b1bca290645d82a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdPart/Polylised - Medieval Desert City/Prefabs/prefab_props/street_green_belt_a.prefab using Guid(87628799fe06ec849b1bca290645d82a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77be049c7fc8bc26bd29f5dc8e13c184') in 0.028474 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/ThirdPart/Wand and Circles/Polygon City Free Pack - Environment and Interior/Prefabs/Desks/Desk_14.prefab
+  artifactKey: Guid(00d2d37f3ed42cd4d83094249668f14d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdPart/Wand and Circles/Polygon City Free Pack - Environment and Interior/Prefabs/Desks/Desk_14.prefab using Guid(00d2d37f3ed42cd4d83094249668f14d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42deaa731ffcccec1491bfd47a24f2ee') in 0.022510 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/ThirdPart/Polylised - Medieval Desert City/Prefabs/prefab_civilian_buildings/civilian_house_ruin_d.prefab
+  artifactKey: Guid(b685843e757502a4b83db9964e0096c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdPart/Polylised - Medieval Desert City/Prefabs/prefab_civilian_buildings/civilian_house_ruin_d.prefab using Guid(b685843e757502a4b83db9964e0096c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b97d2066a9544a668599354b7cc6e4db') in 0.034448 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000111 seconds.
+  path: Assets/ThirdPart/Polylised - Medieval Desert City/Prefabs/prefab_civilian_buildings/civilian_house_41_c.prefab
+  artifactKey: Guid(01f430f644612654ebf1c6abb4e142e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdPart/Polylised - Medieval Desert City/Prefabs/prefab_civilian_buildings/civilian_house_41_c.prefab using Guid(01f430f644612654ebf1c6abb4e142e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2652aa254f0904c3b0d38a38c89ff3d') in 0.045704 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/ThirdPart/Polylised - Medieval Desert City/Prefabs/prefab_civilian_buildings/civilian_house_ruin_e.prefab
+  artifactKey: Guid(b17928c38ad69b341854a1d83a2f64a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdPart/Polylised - Medieval Desert City/Prefabs/prefab_civilian_buildings/civilian_house_ruin_e.prefab using Guid(b17928c38ad69b341854a1d83a2f64a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39f977579ebe3b845a26b46457366461') in 0.032703 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/ThirdPart/Polylised - Medieval Desert City/Prefabs/prefab_terrain/cliff_02.prefab
+  artifactKey: Guid(41a670177e1723444b5622302f81dd16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdPart/Polylised - Medieval Desert City/Prefabs/prefab_terrain/cliff_02.prefab using Guid(41a670177e1723444b5622302f81dd16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68bcbb260902b156915166a56d857780') in 0.021515 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/ThirdPart/Wand and Circles/Polygon City Free Pack - Environment and Interior/Prefabs/Stones/Little Stones/Little Stone_0.prefab
+  artifactKey: Guid(4a30ba79df7f1754e8b69e78fd648cf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdPart/Wand and Circles/Polygon City Free Pack - Environment and Interior/Prefabs/Stones/Little Stones/Little Stone_0.prefab using Guid(4a30ba79df7f1754e8b69e78fd648cf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d0b98f4675af619e884abaa32e08f86') in 0.028760 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/ThirdPart/Polylised - Medieval Desert City/Prefabs/prefab_civilian_buildings/stone_stairs_1.prefab
+  artifactKey: Guid(ab7e4379616633d4fae805cc74f50740) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdPart/Polylised - Medieval Desert City/Prefabs/prefab_civilian_buildings/stone_stairs_1.prefab using Guid(ab7e4379616633d4fae805cc74f50740) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16ed85256a3b247aa7cdd59f1a37c187') in 0.033157 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/ThirdPart/Polylised - Medieval Desert City/Prefabs/prefab_civilian_buildings/standard_wooden_roof_4.prefab
+  artifactKey: Guid(21b21882911abc943a33722777323a9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdPart/Polylised - Medieval Desert City/Prefabs/prefab_civilian_buildings/standard_wooden_roof_4.prefab using Guid(21b21882911abc943a33722777323a9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04a369febec4690d312f71d5dc41dcb4') in 0.025632 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/ThirdPart/Polylised - Medieval Desert City/Prefabs/prefab_civilian_buildings/civilian_house_ruin_f.prefab
+  artifactKey: Guid(9882662ad781bc746b59d726239c0532) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdPart/Polylised - Medieval Desert City/Prefabs/prefab_civilian_buildings/civilian_house_ruin_f.prefab using Guid(9882662ad781bc746b59d726239c0532) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e207d636eef2c77328bb7a3d03b44f1a') in 0.034321 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/ThirdPart/Wand and Circles/Polygon City Free Pack - Environment and Interior/Prefabs/Desks/Desk_2.prefab
+  artifactKey: Guid(b92ecae084215c748bc7120944a860f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdPart/Wand and Circles/Polygon City Free Pack - Environment and Interior/Prefabs/Desks/Desk_2.prefab using Guid(b92ecae084215c748bc7120944a860f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d5b5ceec8fba21bc54ec7bcf3b58277') in 0.025562 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/ThirdPart/MegaPack1Lite/RomanCityPack1Lite/Prefabs/Models/Standard/roman_crate_closed.prefab
+  artifactKey: Guid(ddd55826d414d4d5395b5819ba6f53be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdPart/MegaPack1Lite/RomanCityPack1Lite/Prefabs/Models/Standard/roman_crate_closed.prefab using Guid(ddd55826d414d4d5395b5819ba6f53be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e26e17c99393a40b3b45bc68edcb8cc9') in 0.028554 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/ThirdPart/Wand and Circles/Polygon City Free Pack - Environment and Interior/Prefabs/Desks/Desk_11.prefab
+  artifactKey: Guid(d81b4c775b1b46f4d91266199968c36e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdPart/Wand and Circles/Polygon City Free Pack - Environment and Interior/Prefabs/Desks/Desk_11.prefab using Guid(d81b4c775b1b46f4d91266199968c36e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9a2ed2088e08a88ef98708400b2ed08') in 0.030539 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/ThirdPart/Polylised - Medieval Desert City/Prefabs/prefab_props/port_wooden_bridge_b_stairs.prefab
+  artifactKey: Guid(dc1fcb109772d284485f64219c3a7f2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdPart/Polylised - Medieval Desert City/Prefabs/prefab_props/port_wooden_bridge_b_stairs.prefab using Guid(dc1fcb109772d284485f64219c3a7f2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f65d47e6aad92d1eb57d9513ca234d6f') in 0.027808 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/ThirdPart/Wand and Circles/Polygon City Free Pack - Environment and Interior/Prefabs/Buildings/Modular/Roof prop_1.prefab
+  artifactKey: Guid(6c0b99f345950b445b660a6886deae7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdPart/Wand and Circles/Polygon City Free Pack - Environment and Interior/Prefabs/Buildings/Modular/Roof prop_1.prefab using Guid(6c0b99f345950b445b660a6886deae7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '796bbfec5e86b58abc64cbd786ff8d92') in 0.030094 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000272 seconds.
+  path: Assets/ThirdPart/MegaPack1Lite/GreekPack1Lite/Prefabs/Objects/Optimized/greek_stairs_stone_corner.prefab
+  artifactKey: Guid(f5b1e8fc198b24ebf85f258b7b247ac6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdPart/MegaPack1Lite/GreekPack1Lite/Prefabs/Objects/Optimized/greek_stairs_stone_corner.prefab using Guid(f5b1e8fc198b24ebf85f258b7b247ac6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7931eaf05a5c8bf99b23535d43aee9f0') in 0.027604 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/ThirdPart/MegaPack1Lite/GreekPack1Lite/Prefabs/Objects/Optimized/greek_column_2.prefab
+  artifactKey: Guid(7aaea4c6ceef14ca8a5866beb67602d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdPart/MegaPack1Lite/GreekPack1Lite/Prefabs/Objects/Optimized/greek_column_2.prefab using Guid(7aaea4c6ceef14ca8a5866beb67602d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14827c97d9b2104325740212db92f6f5') in 0.024481 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/ThirdPart/Polylised - Medieval Desert City/Prefabs/prefab_terrain/cliff_05.prefab
+  artifactKey: Guid(193b5b75d0e6d874a87f6fdfa58d121d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdPart/Polylised - Medieval Desert City/Prefabs/prefab_terrain/cliff_05.prefab using Guid(193b5b75d0e6d874a87f6fdfa58d121d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63b470f4dda5c0fbfe7c17bd41c35662') in 0.026722 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/ThirdPart/Polylised - Medieval Desert City/Prefabs/prefab_civilian_buildings/civilian_house_39_g.prefab
+  artifactKey: Guid(61cf3b6271115c1459b916a30ec02d51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdPart/Polylised - Medieval Desert City/Prefabs/prefab_civilian_buildings/civilian_house_39_g.prefab using Guid(61cf3b6271115c1459b916a30ec02d51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb1f715350edd22c2fae78fbbb248134') in 0.037354 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/ThirdPart/Wand and Circles/Polygon City Free Pack - Environment and Interior/Prefabs/Desks/Desk_17.prefab
+  artifactKey: Guid(aa274f39c4ee85c428f8e61920935b5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdPart/Wand and Circles/Polygon City Free Pack - Environment and Interior/Prefabs/Desks/Desk_17.prefab using Guid(aa274f39c4ee85c428f8e61920935b5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50bad34f25f4d5e3d362ea5ac0770f06') in 0.025838 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/ThirdPart/MegaPack1Lite/GreekPack1Lite/Prefabs/Objects/greek_roof_1_square.prefab
+  artifactKey: Guid(cae15631505aa4b9e90ba7faf74a5ee5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdPart/MegaPack1Lite/GreekPack1Lite/Prefabs/Objects/greek_roof_1_square.prefab using Guid(cae15631505aa4b9e90ba7faf74a5ee5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82a311c059a6a60aa66ae62e8b89d84e') in 0.030749 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/ThirdPart/Wand and Circles/Polygon City Free Pack - Environment and Interior/Prefabs/Desks/Desk_25.prefab
+  artifactKey: Guid(e083d28ffa768d84b80250e27bce1c19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdPart/Wand and Circles/Polygon City Free Pack - Environment and Interior/Prefabs/Desks/Desk_25.prefab using Guid(e083d28ffa768d84b80250e27bce1c19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d7fc1b8428e54db1fc9e2b277d906b2') in 0.030821 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/ThirdPart/Wand and Circles/Polygon City Free Pack - Environment and Interior/Prefabs/Desks/Desk_10.prefab
+  artifactKey: Guid(b2aaa603ad0520f4e91b3e44dd6a22e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdPart/Wand and Circles/Polygon City Free Pack - Environment and Interior/Prefabs/Desks/Desk_10.prefab using Guid(b2aaa603ad0520f4e91b3e44dd6a22e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '317403b79f89ce779ad01cd9b166c191') in 0.033362 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/ThirdPart/Polylised - Medieval Desert City/Prefabs/prefab_civilian_buildings/roof_building_2.prefab
+  artifactKey: Guid(82d5663424b0a704fb8259d39b8d545f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdPart/Polylised - Medieval Desert City/Prefabs/prefab_civilian_buildings/roof_building_2.prefab using Guid(82d5663424b0a704fb8259d39b8d545f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec12ccf73b011ea4bd2578acc72b6fc7') in 0.035625 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/ThirdPart/Polylised - Medieval Desert City/Prefabs/prefab_civilian_buildings/standard_rooftop_1.prefab
+  artifactKey: Guid(7bc4d65430c908a4d92ee697606ce043) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdPart/Polylised - Medieval Desert City/Prefabs/prefab_civilian_buildings/standard_rooftop_1.prefab using Guid(7bc4d65430c908a4d92ee697606ce043) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a3ad8002a53bf1a89931666a5728cf6') in 0.029108 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/ThirdPart/MegaPack1Lite/VictorianPack/Prefabs/victorian_road_dirt_1.prefab
+  artifactKey: Guid(906cbdf3fb41540f48572013c58213de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdPart/MegaPack1Lite/VictorianPack/Prefabs/victorian_road_dirt_1.prefab using Guid(906cbdf3fb41540f48572013c58213de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43d8aa6c51ee67e98b815a9d719a3dc2') in 0.023392 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/ThirdPart/MegaPack1Lite/GreekPack1Lite/Prefabs/Objects/greek_floor_stone_1.prefab
+  artifactKey: Guid(34d863027af504a739927df283d50f54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdPart/MegaPack1Lite/GreekPack1Lite/Prefabs/Objects/greek_floor_stone_1.prefab using Guid(34d863027af504a739927df283d50f54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f81a76a71f8ed9212fc0182db561c17') in 0.027687 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/ThirdPart/MegaPack1Lite/RomanCityPack1Lite/Prefabs/Models/Standard/roman_canopy_hanging.prefab
+  artifactKey: Guid(13f0f163b923341e09fd7d0fdc4a445e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdPart/MegaPack1Lite/RomanCityPack1Lite/Prefabs/Models/Standard/roman_canopy_hanging.prefab using Guid(13f0f163b923341e09fd7d0fdc4a445e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64dec8e65905ebbe713507a063e8ec1e') in 0.025030 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/ThirdPart/Wand and Circles/Polygon City Free Pack - Environment and Interior/Prefabs/Desks/Desk_21.prefab
+  artifactKey: Guid(2aa353b1b5b80f54f8cb335f3cf1bd11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdPart/Wand and Circles/Polygon City Free Pack - Environment and Interior/Prefabs/Desks/Desk_21.prefab using Guid(2aa353b1b5b80f54f8cb335f3cf1bd11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa34d8579e83f3906dee1a10cdb0681e') in 0.024240 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/ThirdPart/MegaPack1Lite/SciFiPack1/Prefabs/scifi_wall_bowed_window_round.prefab
+  artifactKey: Guid(97384239fadec4e2cb9f1cf8023339ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdPart/MegaPack1Lite/SciFiPack1/Prefabs/scifi_wall_bowed_window_round.prefab using Guid(97384239fadec4e2cb9f1cf8023339ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65e24667c28285ebd0c9bf3345549862') in 0.807168 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/ThirdPart/MegaPack1Lite/VictorianPack/Prefabs/victorian_roof_flat_1.prefab
+  artifactKey: Guid(b837ae2fce16343308d9f4d6324ea3da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdPart/MegaPack1Lite/VictorianPack/Prefabs/victorian_roof_flat_1.prefab using Guid(b837ae2fce16343308d9f4d6324ea3da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13d3b3165bbb27e611ab3fa820479d42') in 0.018906 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/ThirdPart/MegaPack1Lite/VictorianPack/Prefabs/victorian_chimney_3.prefab
+  artifactKey: Guid(61c63eae9b3ec42129c75566c8ea2cdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdPart/MegaPack1Lite/VictorianPack/Prefabs/victorian_chimney_3.prefab using Guid(61c63eae9b3ec42129c75566c8ea2cdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd68be17116c7eeb76e0b4997b036f6ff') in 0.022632 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/ThirdPart/MegaPack1Lite/Steampunk/Prefabs/steampunk_wall_stones.prefab
+  artifactKey: Guid(107230376c9b54c3b9c433abe7a919e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdPart/MegaPack1Lite/Steampunk/Prefabs/steampunk_wall_stones.prefab using Guid(107230376c9b54c3b9c433abe7a919e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d35a420154424f0849fad589f2e6ba4') in 0.023148 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/ThirdPart/Polylised - Medieval Desert City/Prefabs/prefab_civilian_buildings/civilian_house_40_f.prefab
+  artifactKey: Guid(051769366cb04ef4eb9e63941d62d4de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdPart/Polylised - Medieval Desert City/Prefabs/prefab_civilian_buildings/civilian_house_40_f.prefab using Guid(051769366cb04ef4eb9e63941d62d4de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbfda165415a0da223e4c8556978f374') in 0.025483 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/ThirdPart/Wand and Circles/Polygon City Free Pack - Environment and Interior/Prefabs/Buildings/Modular/Roof_0.prefab
+  artifactKey: Guid(7b8104b22d53860469727a3ea77f69fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdPart/Wand and Circles/Polygon City Free Pack - Environment and Interior/Prefabs/Buildings/Modular/Roof_0.prefab using Guid(7b8104b22d53860469727a3ea77f69fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7070aea534332d46e22e85de664d8125') in 0.021347 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/ThirdPart/Wand and Circles/Polygon City Free Pack - Environment and Interior/Prefabs/Desks/Desk_13.prefab
+  artifactKey: Guid(6e81d7f77fcd29545adbac3c59a3f90c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdPart/Wand and Circles/Polygon City Free Pack - Environment and Interior/Prefabs/Desks/Desk_13.prefab using Guid(6e81d7f77fcd29545adbac3c59a3f90c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91355c31edb8da89969d9130e53528c0') in 0.021820 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/ThirdPart/Polylised - Medieval Desert City/Prefabs/prefab_civilian_buildings/civilian_house_45.prefab
+  artifactKey: Guid(e00fb5961dc8e904e9be161fb731e2bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdPart/Polylised - Medieval Desert City/Prefabs/prefab_civilian_buildings/civilian_house_45.prefab using Guid(e00fb5961dc8e904e9be161fb731e2bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38296b5c7442fec8f607aee60345c3cb') in 0.035266 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/ThirdPart/Wand and Circles/Polygon City Free Pack - Environment and Interior/Prefabs/Trees/Tree_37.prefab
+  artifactKey: Guid(3412a07407075b246a14e3fe1ac3a50d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdPart/Wand and Circles/Polygon City Free Pack - Environment and Interior/Prefabs/Trees/Tree_37.prefab using Guid(3412a07407075b246a14e3fe1ac3a50d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a03d770acb58d4571183a29151dc3768') in 0.036841 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/ThirdPart/Wand and Circles/Polygon City Free Pack - Environment and Interior/Prefabs/Stones/Little Stones/Little Stone_1.prefab
+  artifactKey: Guid(21405a586a9a2eb48a0ac87136a543fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdPart/Wand and Circles/Polygon City Free Pack - Environment and Interior/Prefabs/Stones/Little Stones/Little Stone_1.prefab using Guid(21405a586a9a2eb48a0ac87136a543fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '471a016d4577215f19b4e08292e636b7') in 0.029112 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/ThirdPart/Polylised - Medieval Desert City/Prefabs/prefab_civilian_buildings/civilian_house_40_e.prefab
+  artifactKey: Guid(83710c91a272bcc4bae05a6ad6cc3764) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdPart/Polylised - Medieval Desert City/Prefabs/prefab_civilian_buildings/civilian_house_40_e.prefab using Guid(83710c91a272bcc4bae05a6ad6cc3764) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e67a24c0df01a1d228b4c374cea9d1f2') in 0.028367 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/ThirdPart/Polylised - Medieval Desert City/Prefabs/prefab_civilian_buildings/civilian_house_40_d.prefab
+  artifactKey: Guid(a543d5e20a3dec8498bc8e59f1660b95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdPart/Polylised - Medieval Desert City/Prefabs/prefab_civilian_buildings/civilian_house_40_d.prefab using Guid(a543d5e20a3dec8498bc8e59f1660b95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ab3ce5302d2ac0371a77cf650c4b136') in 0.027857 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/ThirdPart/Wand and Circles/Polygon City Free Pack - Environment and Interior/Prefabs/Desks/Desk_15.prefab
+  artifactKey: Guid(2ea8d1536187d2947bc1573e09187e7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdPart/Wand and Circles/Polygon City Free Pack - Environment and Interior/Prefabs/Desks/Desk_15.prefab using Guid(2ea8d1536187d2947bc1573e09187e7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05a2d1a24afb980168af1bb34d42e08f') in 0.028468 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/ThirdPart/MegaPack1Lite/RomanCityPack1Lite/Prefabs/Models/Standard/roman_floor_1.prefab
+  artifactKey: Guid(0bd2117b8b7ba42139801f9796a959e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdPart/MegaPack1Lite/RomanCityPack1Lite/Prefabs/Models/Standard/roman_floor_1.prefab using Guid(0bd2117b8b7ba42139801f9796a959e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f493f7c6015541d5108949820ddc6bb') in 0.025478 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/ThirdPart/Polylised - Medieval Desert City/Prefabs/prefab_unique_buildings/wall_H10m_corner.prefab
+  artifactKey: Guid(eb822e064be86dd4abede096f1db99bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdPart/Polylised - Medieval Desert City/Prefabs/prefab_unique_buildings/wall_H10m_corner.prefab using Guid(eb822e064be86dd4abede096f1db99bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f01f4dac0e80435d84949036c7a94643') in 0.030619 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/ThirdPart/MegaPack1Lite/Steampunk/Prefabs/steampunk_wall_stone_half.prefab
+  artifactKey: Guid(5fbfb6aca413f430698626fe1ecd2f74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdPart/MegaPack1Lite/Steampunk/Prefabs/steampunk_wall_stone_half.prefab using Guid(5fbfb6aca413f430698626fe1ecd2f74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b39409fa6f18afbd6fc781f43810135') in 0.026285 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/ThirdPart/Wand and Circles/Polygon City Free Pack - Environment and Interior/Prefabs/Stones/Little Stones/Little Stone.prefab
+  artifactKey: Guid(b71823bb2249a144cad0fd1d48d4ab5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdPart/Wand and Circles/Polygon City Free Pack - Environment and Interior/Prefabs/Stones/Little Stones/Little Stone.prefab using Guid(b71823bb2249a144cad0fd1d48d4ab5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8a0e134064350a08727458729e31089') in 0.029965 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/ThirdPart/MegaPack1Lite/VictorianPack/Prefabs/victorian_roof_1.prefab
+  artifactKey: Guid(1b4a7809d15dd412290da85684fd462d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdPart/MegaPack1Lite/VictorianPack/Prefabs/victorian_roof_1.prefab using Guid(1b4a7809d15dd412290da85684fd462d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11ac8a44a07e0dc99c81c918972f3577') in 0.027674 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/ThirdPart/Polylised - Medieval Desert City/Prefabs/prefab_unique_buildings/crusader_headquarter.prefab
+  artifactKey: Guid(f448e9bc82e30394a811011a5c3b6183) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdPart/Polylised - Medieval Desert City/Prefabs/prefab_unique_buildings/crusader_headquarter.prefab using Guid(f448e9bc82e30394a811011a5c3b6183) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb1fcfa7bba337a8796eae4916b66d8d') in 0.053165 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/ThirdPart/MegaPack1Lite/SciFiPack1/Prefabs/scifi_wall_1sided_door.prefab
+  artifactKey: Guid(aeffd1ccb00824283a1f58e99e6cdca3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdPart/MegaPack1Lite/SciFiPack1/Prefabs/scifi_wall_1sided_door.prefab using Guid(aeffd1ccb00824283a1f58e99e6cdca3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af4e0092baa2c1a437c7cde248206d95') in 0.023793 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/ThirdPart/Wand and Circles/Polygon City Free Pack - Environment and Interior/Prefabs/Stones/Little Stones/Little Stone_2.prefab
+  artifactKey: Guid(62c408e5e0c457c40a67970ef12af9d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdPart/Wand and Circles/Polygon City Free Pack - Environment and Interior/Prefabs/Stones/Little Stones/Little Stone_2.prefab using Guid(62c408e5e0c457c40a67970ef12af9d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bf0419799f8557cb4e38a530dcd87b4') in 0.027188 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/ThirdPart/Polylised - Medieval Desert City/Prefabs/prefab_civilian_buildings/roof_building_3.prefab
+  artifactKey: Guid(0f3875f9f4c16974b98bc27951545f14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdPart/Polylised - Medieval Desert City/Prefabs/prefab_civilian_buildings/roof_building_3.prefab using Guid(0f3875f9f4c16974b98bc27951545f14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f727dc2beecea3d3c524373b4b48905') in 0.032264 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007028 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\user\Documents\GitHub\3Dunity\3D Platformer\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\user\Documents\GitHub\3Dunity\3D Platformer\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.23 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.534 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2535ms)
+		BeginReloadAssembly (259ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (12ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (77ms)
+		EndReloadAssembly (2038ms)
+			LoadAssemblies (156ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (669ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (92ms)
+			SetupLoadedEditorAssemblies (964ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (41ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (146ms)
+				ProcessInitializeOnLoadAttributes (653ms)
+				ProcessInitializeOnLoadMethodAttributes (109ms)
+				AfterProcessingInitializeOnLoad (12ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (22ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 4.61 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3376 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (78.6 KB). Loaded Objects now: 3895.
+Memory consumption went from 138.6 MB to 138.5 MB.
+Total: 7.570400 ms (FindLiveObjects: 0.480900 ms CreateObjectMapping: 0.681600 ms MarkObjects: 6.257700 ms  DeleteObjects: 0.148400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1577.872712 seconds.
+  path: Assets/Player.cs
+  artifactKey: Guid(aa0c185f8deb73848ad53226f8990c49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player.cs using Guid(aa0c185f8deb73848ad53226f8990c49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bb752adc09b8c9d65cf08a57dc71437') in 0.033522 seconds 
