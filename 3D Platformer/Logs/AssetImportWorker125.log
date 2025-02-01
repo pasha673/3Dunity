@@ -1,0 +1,245 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.5f1 (40eb3a945986) revision 4254522'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19044) 64bit CoreSingleLanguage' Language: 'ru' Physical Memory: 8071 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.5f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker125
+-projectPath
+C:/Users/user/Documents/GitHub/3Dunity/3D Platformer
+-logFile
+Logs/AssetImportWorker125.log
+-srvPort
+59470
+Successfully changed project path to: C:/Users/user/Documents/GitHub/3Dunity/3D Platformer
+C:/Users/user/Documents/GitHub/3Dunity/3D Platformer
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+mdb reader table full -> cleaning up stale readers. Current readers:
+    pid     thread     txnid
+       224 24a8 -
+       224 2d50 -
+      4584 1b88 -
+     12952 2dfc -
+      8480 3258 -
+     11004 1f60 -
+     14408 384c -
+     14432 3864 -
+     11672 2bdc -
+     14400 1a8 -
+     13360 36e4 -
+     12388 57c -
+      9796 14a4 -
+     12332 305c -
+     15064 cc8 -
+      4296 740 -
+     16120 3efc -
+     16096 3ee4 -
+     15896 3e20 -
+     15752 3980 -
+     13824 3a34 -
+     11988 33e8 6515
+      8944 3b98 6517
+      5524 3e6c 6517
+     11028 3d90 6519
+      9172 2b94 6519
+     13052 2e50 -
+     10664 34ac -
+     15336 37d0 -
+     13740 3a20 -
+     16072 3f10 -
+     10680 7ac 6525
+     13576 38e0 -
+     13096 3eb4 6527
+     15920 2e5c 6529
+       708 3714 -
+      3796 2320 -
+       392 1600 -
+     14784 3c94 -
+     15600 2e90 -
+     16000 38cc -
+      3512 3f90 -
+     11656 1c44 -
+     15076 3a14 -
+     16196 301c -
+     13752 a54 -
+     10392 2ca4 -
+     16116 3f74 6541
+      6236 3bcc -
+      1868 2df4 -
+     14820 3aa4 -
+      9204 3f3c -
+     13656 3af4 -
+     15616 26a4 -
+     15196 3d10 -
+      1936 3838 -
+     16308 3910 6551
+     15372 3744 6551
+     15512 3aa8 -
+     11724 24c4 6553
+     15828 1adc -
+     14916 1cf4 -
+      3704 4e8 6557
+     16024 3834 -
+     16040 3f50 -
+     15764 354c -
+     15624 3880 -
+     12676 dbc -
+     11312 1c54 -
+     11952 b58 -
+     15276 20c0 -
+     16004 28f4 -
+     12784 3998 -
+     15880 3ed0 -
+     16136 3fb0 -
+     14960 1538 -
+     14152 3df4 -
+     16324 2d84 -
+     16880 41f4 -
+     16904 420c -
+     14648 40f4 -
+     13372 3764 -
+     14884 2b80 -
+      1508 3e94 -
+     17280 4384 -
+     17152 436c -
+      2400 3ea4 -
+     11584 16fc -
+     14940 3128 -
+     16660 2268 -
+     17220 1930 -
+     16540 9a8 -
+     14448 438c -
+     16808 4190 -
+     12420 4260 -
+     15148 424c -
+     16796 3a84 -
+      7596 3b68 -
+     17012 2e60 -
+     15432 428c -
+     12532 1234 -
+     15532 287c -
+     15032 31f4 -
+     15528 1b60 -
+     15840 1a88 -
+      1272 218c -
+     16524 3e7c -
+      9812 e8 -
+      8080 4338 -
+     15116 23bc -
+     11660 3824 -
+     16736 4164 -
+     16676 4308 -
+     13976 1c1c -
+     13408 3110 -
+     12520 3448 -
+      2688 3ab4 -
+     15236 4098 -
+     15340 3ab0 -
+     15712 2fbc -
+      8400 2cd4 -
+      1164 23c -
+      8976 40b4 -
+     13592 3cf8 -
+      5820 42b0 -
+       940 22fc -
+Cleaned out 122 stale readers
+Refreshing native plugins compatible for Editor in 1327.82 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.5f1 (40eb3a945986)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/user/Documents/GitHub/3Dunity/3D Platformer/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce MX110 (ID=0x174e)
+    Vendor:   NVIDIA
+    VRAM:     2010 MB
+    Driver:   27.21.14.6611
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56348
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.078910 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1102.11 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  7.702 seconds
+Domain Reload Profiling:
+	ReloadAssembly (7706ms)
+		BeginReloadAssembly (665ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (5ms)
+		EndReloadAssembly (5676ms)
+			LoadAssemblies (664ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1358ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (344ms)
+			SetupLoadedEditorAssemblies (3476ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (558ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (1105ms)
+				BeforeProcessingInitializeOnLoad (7ms)
+				ProcessInitializeOnLoadAttributes (1287ms)
+				ProcessInitializeOnLoadMethodAttributes (516ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.077502 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\user\Documents\GitHub\3Dunity\3D Platformer\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\user\Documents\GitHub\3Dunity\3D Platformer\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 13.82 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
